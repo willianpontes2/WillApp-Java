@@ -35,6 +35,10 @@ public class task {
         
         
     }
+    
+    public task () {
+    this.createdAt = new Date();
+    }
 
     public int getId() {
         return id;
